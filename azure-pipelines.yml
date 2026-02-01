@@ -26,7 +26,7 @@ steps:
   # Run Android tests with the 'android' profile
   - script: |
       echo Running Android Tests with Appium
-      mvn test -P android  # Run the tests with the 'android' profile
+      mvn test -P android  
     displayName: 'Run Android Tests'
     env:
       LT_USERNAME: $(LT_USERNAME)  # LambdaTest username (securely injected from variable group)
