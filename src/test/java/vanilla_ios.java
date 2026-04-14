@@ -26,7 +26,7 @@ public class vanilla_ios {
             ltOptions.put("deviceName", "iPhone.*"); // Updated to a newer model for better stability
             ltOptions.put("platformVersion", "17");
             ltOptions.put("isRealMobile", true);
-            ltOptions.put("app", "lt://APP1016018631760361477812757"); // Use your iOS App URL
+            ltOptions.put("app", "<your_app_id>"); // Use your iOS App URL
             ltOptions.put("build", "Java Vanilla - iOS");
             ltOptions.put("name", "Sample Test Java iOS");
             ltOptions.put("devicelog", true);
