@@ -27,7 +27,7 @@ public class vanilla_android {
         ltOptions.put("platformVersion", "14");
         ltOptions.put("platformName", "Android");
         ltOptions.put("isRealMobile", true);
-        ltOptions.put("app", "lt://APP1016055391769006462699400");
+        ltOptions.put("app", "<your_app_id>");
         ltOptions.put("deviceOrientation", "PORTRAIT");
         ltOptions.put("build", "Java Vanilla - Android");
         ltOptions.put("name", "Sample Test Java");
